@@ -1,0 +1,18 @@
+# Build artifacts
+/build/
+/hms
+*.o
+*.exe
+*.out
+
+# Runtime data (generated when the program runs)
+/data/*.dat
+
+# Keep the data folder itself in version control
+!/data/.gitkeep
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
